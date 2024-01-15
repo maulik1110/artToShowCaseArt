@@ -1,0 +1,39 @@
+@media (max-width: 400px) {
+    .bg{
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .content p{
+        margin-top: 50px;
+        font-size: 18px;
+    }
+
+    .nav .fas{
+        display: block;
+        font-size: 20px;
+    }
+
+    .nav ul {
+        background-color: #dadada;
+        position: fixed;
+        top: 0;
+        right: 0px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 30px;
+        z-index: 2;
+    }
+
+    .nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    .nav ul .fas {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+}
